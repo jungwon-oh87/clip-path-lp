@@ -4,6 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CR7 LP</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+      integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ="
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
@@ -25,9 +31,9 @@
         <img src="./cr.png" />
       </div>
 
-      <ul class="nav">
+      <ul class="nav" id="nav">
         <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
+        <li><a href="#" class="active">About</a></li>
         <li><a href="#">Performance</a></li>
         <li><a href="#">Team</a></li>
         <li><a href="#">Contact Us</a></li>
@@ -39,5 +45,9 @@
         <li><a href="#">Twitter</a></li>
       </ul>
     </section>
+    <button class="burger" id="burger">
+      <i class="fas fa-bars fa-2x"></i>
+    </button>
+    <script src="./script.js"></script>
   </body>
 </html>
